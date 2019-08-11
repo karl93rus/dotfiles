@@ -83,6 +83,9 @@ fi
 # export Golang env variable
 export PATH=$PATH:/usr/local/go/bin
 
+# set vim mode in bash
+set -o vi
+
 # if the command-not-found package is installed, use it
 if [ -x /usr/lib/command-not-found ]; then
 	function command_not_found_handle {
