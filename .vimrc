@@ -2,6 +2,7 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'jiangmiao/auto-pairs'
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
 call plug#end()
 
@@ -21,6 +22,8 @@ set syntax=on
 set number
 
 set nrformats=
+
+set noswapfile
 
 " mappings
 
