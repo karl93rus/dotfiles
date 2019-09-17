@@ -82,6 +82,7 @@ fi
 
 # export Golang env variable
 export PATH=$PATH:/usr/local/go/bin
+export GOPATH=~/Documents/codeFiles/go
 
 # set vim mode in bash
 set -o vi
