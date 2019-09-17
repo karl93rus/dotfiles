@@ -23,8 +23,6 @@ set number
 
 set nrformats=
 
-set noswapfile
-
 " mappings
 
 map <C-n> :NERDTreeToggle<CR>
