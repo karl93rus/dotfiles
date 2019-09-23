@@ -22,6 +22,7 @@ set syntax=on
 set number
 
 set nrformats=
+set noswapfile
 
 " mappings
 
