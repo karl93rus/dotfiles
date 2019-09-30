@@ -1,5 +1,6 @@
 call plug#begin('~/.vim/plugged')
 
+Plug 'vim-airline/vim-airline'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'jiangmiao/auto-pairs'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
