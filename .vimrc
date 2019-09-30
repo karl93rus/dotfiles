@@ -27,6 +27,10 @@ set noswapfile
 
 " mappings
 
+nnoremap <silent> ]b :bnext<CR> " next buffer
+nnoremap <silent> [b :bprev<CR> " previos buffer
+nnoremap <silent> ]B :blast<CR> " last buffer
+nnoremap <silent> [B :bfirst<CR> " first buffer
 map <C-n> :NERDTreeToggle<CR>
 
 let NERDTreeShowHidden=1
